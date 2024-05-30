@@ -1,0 +1,43 @@
+.theme--light.v-application {
+  background: rgba(0,0,0,0)!important;
+}
+.v-application .error--text{
+ color: black!important;
+  caret-color: black!important;
+}
+.v-application .primary--text{
+  color: black!important;
+  caret-color: black!important;
+}
+.theme--light.v-app-bar.v-toolbar.v-sheet{
+  background-color: #29537A!important;
+}
+.v-btn > .v-btn__content .v-icon {
+  color: white!important;
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 20px;
+  }
+
+  .some-class {
+    padding: 20px;
+    font-size: 16px;
+  }
+  /* .logo {
+    min-width: 320px;
+  }
+  .v-btn__content {
+    font-size: 1.25rem;
+  }
+  .navbar {
+    height: 130px;
+  } */
+}
+/* @media (max-width: 1921px) {
+  
+  .navbar {
+    height: 100px;
+  }
+} */
